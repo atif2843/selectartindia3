@@ -1,3 +1,6 @@
+ul{
+	list-style:none;
+}
 .stayconnected{
     text-align: center;
     display: flex;

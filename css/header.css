@@ -73,7 +73,7 @@ a{
     color:#fff;
 }
 .nav-items-container ul li:hover{
-    background-image: url(/assets/brush-stroke-banner-5.svg);
+    background-image: url(../assets/brush-stroke-banner-5.svg);
     background-size: cover;
     background-origin: border-box;
     background-position: center;
@@ -154,11 +154,9 @@ a{
     object-fit:cover;
 }
 .carousel-indicators li {
-  
     width: 10px !important;
     height: 10px !important;
 	border-radius: 50%;
-   
 }
 .bg-custom-1 {
     background-color: #85144b;

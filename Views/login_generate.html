@@ -1,38 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../css/style.css">
+<html>
+  <head>
+	<link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/preset.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/font.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
-	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
+	  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    <header>
+    <title>Account registration form</title>
+  </head>
+  <body>
+  <header>
         <nav class="nav-conatiner">
             <div class="logo-container">
                 <div class="logo">
-                    <a href="../Index.html"><img src="../assets/Asset%202.png" alt=""></a>
+                    <a href="Index.html"><img src="../assets/Asset%202.png" alt=""></a>
                 </div>
             </div>
             <div class="nav-items-container">
                 <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="artworks.html">Artworks</a></li>
-                    <li><a href="artist.html">Artists</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="partnership.html">Patnership</a></li>
+                    <li><a href=".../Views/about.html">About</a></li>
+                    <li><a href=".../Views/artworks.html">Artworks</a></li>
+                    <li><a href=".../Views/artist.html">Artists</a></li>
+                    <li><a href=".../Views/blog.html">Blog</a></li>
+                    <li><a href=".../Views/partnership.html">Patnership</a></li>
 
                 </ul>
             </div>
@@ -98,49 +95,25 @@
             </div>
         </div>
     </header>
-
-    <main class="container">
-        <div class="container mt-5">
-        <div class="col text-center mt-5">
-            <h1 class="mt-10">About US</h1>
-            <p>Art is an extension of one's personality. In the highly volatile and uncertain world that we inhabit, we all need something which is a constant but ever changing. Art is
-
-                something which evolves every day, brings new meanings, offers different perspectives and leads to newer discoveries. "Art is not what you see, but what you make
-                
-                others see? While art has the power to transform a space, the real value that art brings is in the statement that it makes about you, your sensibility and taste. It
-                
-                converts a house to a home - putting a unique stamp of your personality.</p>
-        </div>
-    </div>
-    <div class="row">    
-    <div class="col text-center">
-            <h1>Selectart.in</h1>
-            <p>Selectart.in is an effort by a bunch of art lovers who have enjoyed and benefited from the joys that artworks provide. It is a humble attempt to bring to forefront shy
-
-                artists, hidden gems and emerging talent from the distant parts of the country. Our platform is the meeting point for artists and art lovers. We leverage technology
-                
-                to bring carefully curated select artworks to your doorstep. Our promise is to make art affordable and accessible to art lovers while helping artists get a fair
-                
-                remuneration for their efforts. We don't seek to have the largest collection. We don't want to overwhelm you with innumerable pieces. Our attempt is to do curation
-                
-                on your behalf and bring to you select, unique pieces. Our panel of experts curate every work that our artists submit and shortlist only those which meet their
-                
-                stringent criteria of uniqueness, strong artistic language and works which makes a bold statement. We have built a truly unique collection which represents various
-                
-                styles and tastes. We understand how difficult it is to choose from a collection of stunning artworks. Besides having a limited collection, to ease your selection
-                
-                process, we have also built filters that allow you to shortlist works based artist, budget, style, colours, etc.</p>
-        </div>
-        
-    </div>
+  <div class="container mt-5">
     <div class="row">
-        <div class="col text-center about_explore">
-            <a href="" class="rouded-btn-bg-red rouded-btn">Explore</a>
-        </div>
+      <div class="col">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
     </div>
-    </main>
-
-    <footer>
+  </div>  
+  <footer>
         <div class="stayconnected">
             <div class="stayinnertext"><h1>Stay Connected</h1></div>
             <div class="newsletter_wrapper">
@@ -189,5 +162,5 @@
           </div>
           <div class="copyright">© 2021 selectart.in</div>
       </footer>
-</body>
+  </body>
 </html>

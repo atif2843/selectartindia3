@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/painting.css">
+    <link rel="stylesheet" href="../css/artist_artworks.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/preset.css">
     <link rel="stylesheet" href="../css/header.css">
@@ -23,7 +24,7 @@
         <nav class="nav-conatiner">
             <div class="logo-container">
                 <div class="logo">
-                  <a href="../Index.html"><img src="../assets/Asset%202.png" alt=""></a>
+                  <a href="/Index.html"><img src="../assets/Asset%202.png" alt=""></a>
                 </div>
             </div>
             <div class="nav-items-container">
@@ -69,45 +70,20 @@
 
             </div>
         </nav>
-        
-        <div class="slide-show__">
-            <div class="slideshow-wrapper">
-                <div id="demo" class="carousel slide" data-ride="carousel">
-                    
-                    <ul class="carousel-indicators">
-                      <li data-target="#demo" data-slide-to="0" class="active"></li>
-                      <li data-target="#demo" data-slide-to="1"></li>
-                      <li data-target="#demo" data-slide-to="2"></li>
-                    </ul>
-                    <div class="carousel-inner">
-                        <!-- <div class="crousel_text">
-                            <h1><span class="small">we</span> <span class="large">discover</span></h1>
-                            <a href="" class="rouded-btn rouded-btn-bg-red">Explore</a>
-                        </div> -->
-                      <div class="carousel-item active">
-                        <img src="../assets/banner-image-1.png" alt="Los Angeles" >
-                        </div>
-                      <div class="carousel-item">
-                        <img src="../assets/banner-image-2.png" alt="Chicago" >   
-                      </div>
-                      <div class="carousel-item">
-                        <img src="../assets/banner-image-3.png" alt="New York">
-                        </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
     </header>
 
     <main class="container">
         <div class="heading">
-            <h1 class="text-center">Artists</h1>
+            <h1 class="text-center">{artist} Arworks</h1>
         </div>
         <div class="row">
                 <div class="card" style="width: 18rem;">
+                    <button type="button" class="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
                     <img class="card-img-top" src="../assets/Screen Shot 2021-08-04 at 11.42.26 AM.png" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title font-weight-bold">Artist Name</h4>
+                      <h4 class="card-title font-weight-bold">{Artwork title}</h4>
                       
                       
                       
@@ -116,7 +92,7 @@
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="../assets/Screen Shot 2021-08-04 at 11.42.26 AM.png" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title font-weight-bold">Artist Name</h4>
+                      <h4 class="card-title font-weight-bold">{Artwork title}</h4>
                       
                       
                       
@@ -125,7 +101,7 @@
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="../assets/Screen Shot 2021-08-04 at 11.42.26 AM.png" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title font-weight-bold">Artist Name</h4>
+                      <h4 class="card-title font-weight-bold">{Artwork title}</h4>
                       
                       
                       
@@ -134,7 +110,7 @@
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="../assets/Screen Shot 2021-08-04 at 11.42.26 AM.png" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title font-weight-bold">Artist Name</h4>
+                      <h4 class="card-title font-weight-bold">{Artwork title}</h4>
                       
                       
                       
@@ -143,7 +119,7 @@
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="../assets/Screen Shot 2021-08-04 at 11.42.26 AM.png" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title font-weight-bold">Artist Name</h4>
+                      <h4 class="card-title font-weight-bold">{Artwork title}</h4>
                       
                       
                       
@@ -152,7 +128,7 @@
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="../assets/Screen Shot 2021-08-04 at 11.42.26 AM.png" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title font-weight-bold">Artist Name</h4>
+                      <h4 class="card-title font-weight-bold">{Artwork title}</h4>
                       
                       
                       
@@ -161,7 +137,7 @@
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="../assets/Screen Shot 2021-08-04 at 11.42.26 AM.png" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title font-weight-bold">Artist Name</h4>
+                      <h4 class="card-title font-weight-bold">{Artwork title}</h4>
                       
                       
                       
@@ -170,16 +146,17 @@
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="../assets/Screen Shot 2021-08-04 at 11.42.26 AM.png" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title font-weight-bold">Artist Name</h4>
+                      <h4 class="card-title font-weight-bold">{Artwork title}</h4>
                       
                       
                       
                     </div>
                   </div>
                   <div class="card" style="width: 18rem;">
+                    
                     <img class="card-img-top" src="../assets/Screen Shot 2021-08-04 at 11.42.26 AM.png" alt="Card image cap">
                     <div class="card-body">
-                      <h4 class="card-title font-weight-bold">Artist Name</h4>
+                      <h4 class="card-title font-weight-bold">{Artwork title}</h4>
                       
                       
                       
@@ -191,54 +168,7 @@
           </div>
     </main>
 
-    <footer>
-        <div class="stayconnected">
-            <div class="stayinnertext"><h1>Stay Connected</h1></div>
-            <div class="newsletter_wrapper">
-                <div>
-                    <span class="newsletter">
-                        <input type="text" class="input_newsletter" placeholder="Enter your email here*">
-                        <a href="" class="rouded-btn-bg-red newsletter_btn">Join</a>
-                    </span>
-                </div>
-            </div>
-        </div>  
-        <div class="main_footer">
-              <div class="footer_home">
-                  <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Artworks</a></li>
-                      <li><a href="#">Artist</a></li>
-                      <li><a href="#">Register</a></li>
-                  </ul>
-              </div>
-              <div class="footer_policy">
-                  <ul>
-                      <li><a href="">Policy</a></li>
-                      <li><a href="">Shipping & Returns</a></li>
-                      <li><a href="">Store Policy</a></li>
-                      <li><a href="">Payment Methods</a></li>
-                      <li><a href="">FAQ</a></li>
-                  </ul>
-              </div>
-              <div class="footer_contact">
-                  <ul>
-                      <li><a href="">Contact Us</a></li>
-                      <li><a href="">Tel: +91 98201 44162</a></li>
-                      <li><a href="">Email: selectartindia@gmail.com</a></li>
-                      <li>
-                        <ul class="social_icons">
-                            <li><a href=""><img src="../assets/facebook-brands.svg" alt=""></a></li>
-                            <li><a href=""><img src="../assets/instagram-brands.svg" alt=""></a></li>
-                            <li><a href=""><img src="../assets/twitter-brands.svg" alt=""></a></li>
-                            <li><a href=""><img src="../assets/youtube-brands.svg" alt=""></a></li>
-                        </ul>
-                    </li>
-                  </ul>
-              </div>
-          </div>
-          <div class="copyright">© 2021 selectart.in</div>
-      </footer>
+    
+      <div class="copyright">© 2021 selectart.in</div>
 </body>
 </html>

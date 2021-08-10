@@ -1,0 +1,29 @@
+nav.nav-conatiner{
+    background: rgb(0, 0, 0,0.5);
+}
+.container{
+    margin-top: 150px;
+}
+.card{
+    position: relative;
+}
+button.close{
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    height: 30px;
+    width: 30px;
+    background-color: red !important;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-self: center;
+    opacity: unset !important;
+}
+.close span{
+    font-size: 32px;
+    width: inherit;
+    height: inherit;
+    color: white;
+    
+}
